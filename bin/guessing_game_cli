@@ -3,3 +3,6 @@
 require_relative "../guessing_game_cli"
 
 run_guessing_game
+
+
+#all this file does is load guessing_game_cli.rb so that it has access to the run_guessing_game method, then it calls the method to start the application
