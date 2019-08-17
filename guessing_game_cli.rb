@@ -7,7 +7,7 @@ end
 def run_guessing_game
   random_num = rand(6) + 1
   prompt_user
-  user_input = gets.chomp 
+  user_input = gets
   
   if user_input == random_num.to_s
     "You guessed the correct number!"
